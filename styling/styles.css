@@ -1,0 +1,168 @@
+/*<!-- text: #0B1942
+  inline link: #00B7D3
+  h2 background: #0B1942
+  h2 color: #FFFFFF
+  logo background: #F5005B
+  navigation background: #7DDFE8
+  navigation link color: #FFFFFF
+  "Home" nav link background: #00A5BF
+  "Calendar" nav link background: #00B7D3
+  "Join" nav link background: #00D5E7
+  "Up Next" background: #0B1942
+  "Up Next" card background #E2E2E2
+  calendar background and treatments: #0B1942
+  calendar highlighted day: #F5005B
+  button background: #F5005B
+  copyright text: #FFFFFF -->*/
+.mon{
+  font-size: 2em;
+  font-family: PT Sans;
+  color: white;
+  text-align: left;
+  padding-left: 15pt;
+  padding-top: 20pt;
+}
+
+.calander{
+background-color: #0B1942;
+padding: 50px 0;
+}
+
+.month{
+  max-width: 560px;
+  margin: 20px auto;
+  height: 120%;
+  }
+
+.week{
+display: flex;
+flex-flow: wrap;
+height: 80px;
+width: 100%;
+}
+
+.day{
+  align-self: stretch;
+  border: 3px solid #0B1942;
+  margin: 0;
+  color: #F98909;
+  background-color: white;
+  width: 500%;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+ .nav-link-text{
+  text-decoration: none;
+}
+
+div a{
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  color: #FFFFFF;
+  background-color: #0B1942;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+article{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+div{
+  background-color: #E2E2E2;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+aside{
+  background-color: #E2E2E2;
+  display: flex;
+  margin: 25px;
+}
+
+article{
+  background-color: #0B1942;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  height: 200px;
+}
+
+#logo{
+  background-color: #F5005B;
+  padding: 5px;
+}
+
+img a{
+  height: 100%;
+  background-color: #F5005B;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #7DDFE8;
+}
+
+.nav-item1{
+  background-color: #00A5BF;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item2{
+  background-color: #00B7D3;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item3{
+  background-color: #00D5E7;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  color: white;
+  text-decoration: none;
+  }
+
+
+
+
+@media screen and (min-width: 545px){
+.nav-item1, .nav-item2, .nav-item3{
+  display:flex;
+  padding-top: 91px;
+  padding-bottom: 91px;
+  width: 150px;
+  display: inline-block;
+  float: left;
+}
+nav{
+display: inline-block;
+
+}
+}
+
+@media screen and (min-width: 769px){
+  a{
+    display:flex;
+    flex-direction: row;
+  }
+
+}
